@@ -38,23 +38,23 @@ public class MainActivity extends AppCompatActivity implements
         if(savedInstanceState == null){
 
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new MessageFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_message);}
+                    new pengaturanfragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_pengaturan);}
     }
     //drawer menu fragment handler
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem
                                                     item) {
         switch (item.getItemId()){
-            case R.id.nav_message:
+            case R.id.nav_socialmedia:
 
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new MessageFragment()).commit();
+                        new pengaturanfragment()).commit();
                 break;
-            case R.id.nav_chat:
+            case R.id.nav_pengaturan:
 
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new ChatFragment()).commit();
+                        new SocialmediaFragment()).commit();
                 break;
             case R.id.nav_profile:
 

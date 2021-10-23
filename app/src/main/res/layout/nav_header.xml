@@ -3,26 +3,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="176dp"
-    android:background="#00BCD4"
+    android:background="@drawable/pemandangan"
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round" />
+        android:layout_width="115dp"
+        android:layout_height="75dp"
+        android:src="@drawable/foto" />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="8dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Membuat Navigation"
+        android:text="YANDI PRIO UTOMO"
 
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lab. Mobile Programming" />
+        android:text="yandiprio" />
 </LinearLayout>
